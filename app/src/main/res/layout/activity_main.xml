@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg_camel_mobile"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quizizz!"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_light"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/tvContentQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Content"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/black"
+            android:background="@drawable/bg_tranperent_coner_15"
+            android:padding="20sp"
+            android:gravity="center"
+            android:textSize="10pt"/>
+
+        <TextView
+            android:id="@+id/tvQuestionNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 69"
+            android:paddingEnd="5dp"
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/bg_red_coner_35"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tvAns1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer1"
+        android:layout_marginTop="10dp"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:textColor="@color/black"
+        android:background="@drawable/bg_tranperent_coner_35"
+
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvAns2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer1"
+        android:layout_marginTop="10dp"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:textColor="@color/black"
+        android:background="@drawable/bg_tranperent_coner_35"
+
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvAns3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer1"
+        android:layout_marginTop="10dp"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:textColor="@color/black"
+        android:background="@drawable/bg_tranperent_coner_35"
+
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tvAns4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer1"
+        android:layout_marginTop="10dp"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:textColor="@color/black"
+        android:background="@drawable/bg_tranperent_coner_35"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="20sp"/>
+</LinearLayout>
